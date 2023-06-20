@@ -10,11 +10,11 @@ Directories and files included in this repository
 
 This is obtained by running the following code on the output of `run_analysis()`,
 
-`write.table(Name of the R object used to store output of the above mentioned function, "VariableMeans.txt")`
+`write.table(Name of the R object used to store output of the above mentioned function, "VariableMeans.txt", row.names = FALSE)`
 
 And can be retrieved into R by using the following code,
 
-`VariableMeans <- read.table("VariableMeans.txt")`
+`VariableMeans <- read.table("VariableMeans.txt", header = TRUE)`
 
 **CodeBook.md :** Code Book describing the process of cleaning the raw data based on the specifications and provides description of variables in the tidy data set - `VariableMeans.txt`
 
