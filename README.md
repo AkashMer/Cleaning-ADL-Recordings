@@ -18,7 +18,7 @@ And can be retrieved into R by using the following code,
 
 **CodeBook.md :** Code Book describing the process of cleaning the raw data based on the specifications and provides description of variables in the tidy data set - `VariableMeans.txt`
 
-**run_analysis.R :** Rscript which defines a function `run_analysis()`, which downloads the required raw data, loads in the required packages and performs the cleaning of the raw data and returns the tidy data set which should be stored in an R object
+**run_analysis.R :** Rscript which defines a function `run_analysis()`, which downloads the required raw data, loads in the required packages and performs the cleaning of the raw data and returns the tidy data set which should be stored in an R object. The transformation steps and their descriptions are included in the CodeBook.md file above.
 
 This R script was written in
 
