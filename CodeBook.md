@@ -47,14 +47,14 @@ The following transformations were applied to these in the database itself,
 -   Magnitudes of these 3 dimensional signals calculated under normal distribution (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
 -   Fourier transformation is done on some of the above signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag ('f' denotes requency domain signals)
 
-Kindly refer to the features_info.txt available in the raw data for detailed explanation.\
+Kindly refer to the `features_info.txt` available in the raw data for detailed explanation.\
 This text file gives detailed descriptions of the features selected for these train and test datasets
 
 ### Variables estimated from the above signals
 
 -   mean(): Mean value
 -   std(): Standard deviation
--   and others which can be obtained from the above features_info.txt.
+-   and others which can be obtained from the above `features_info.txt`.
 
 ## Steps performed to reach the desired tidy data
 
@@ -133,7 +133,7 @@ Each entry in the following columns represents the **mean of the variables**(des
 For eg. the name of the column is,
 
 "tBodyAccelerationMeanX" than it represents the Mean of mean body acceleration(time domain signal) along the x axis for each activity and each subject\
-"fBodyAccelerationJerkStandardDeviationZ" represents the Mean of linear body acceleration standard deviation along the z axis
+"fBodyAccelerationJerkStandardDeviationZ" represents the Mean of linear body acceleration standard deviation along the z axis for each activity and each subject
 
 **\$tBodyAccelerationMeanX**
 
