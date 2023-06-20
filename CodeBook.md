@@ -130,6 +130,12 @@ Each entry in the following columns represents the **mean of the variables**(des
 
 -   All of these contain the data type double, <dbl>
 
+-   Units: meters/second\^2 (except when 'Magnitude' is mentioned
+
+-   Units for columns with 'Magnitude' : meters
+
+-   They were already detrended in the raw data set by using the median and limited to [-1,1]
+
 For eg. the name of the column is,
 
 "tBodyAccelerationMeanX" than it represents the Mean of mean body acceleration(time domain signal) along the x axis for each activity and each subject\
